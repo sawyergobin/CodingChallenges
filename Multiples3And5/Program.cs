@@ -68,11 +68,25 @@ namespace Multiples3And5
             }
 
             int multiple2Sum = multiplesList2.Sum();
-            //Uncomment below for testing
-            //Console.WriteLine(multiple1Sum);
 
-            //Get total sum and print to console
+            //Find the lowest product and run it through the same math
+            int exNum = multiple1 * multiple2;
+            List<int> excludes = new List<int>();
+            int exRepeatTop = topNum / exNum;
+            for (int i = 1; i < exRepeatTop; i++)
+            {
+                int newExc = i * exNum;
+                excludes.Add(newExc);
+                //Console.WriteLine(newExc);
+            }
+            
+            //Uncomment below for testing
+            //Console.WriteLine(multiple2Sum);
+
+            //Get total sum as an int
             int totalSum = multiple1Sum + multiple2Sum;
+            //Exclude duplicates
+            totalSum -= excludes.Sum();
 
             Console.WriteLine($"The sum of all multiples of {multiple1} or {multiple2} below {topNum} are:" +
                 $"\n {totalSum:n0}");
