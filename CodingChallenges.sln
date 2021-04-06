@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.1259
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Multiples3And5", "Multiples3And5\Multiples3And5.csproj", "{2BC81102-B4F8-4C1E-9D51-B00574AB6B58}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FibonacciEvenSum", "FibonacciEvenSum\FibonacciEvenSum.csproj", "{3F52CB72-394E-4067-8A53-3AF8211E133B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{2BC81102-B4F8-4C1E-9D51-B00574AB6B58}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2BC81102-B4F8-4C1E-9D51-B00574AB6B58}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2BC81102-B4F8-4C1E-9D51-B00574AB6B58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F52CB72-394E-4067-8A53-3AF8211E133B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F52CB72-394E-4067-8A53-3AF8211E133B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F52CB72-394E-4067-8A53-3AF8211E133B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F52CB72-394E-4067-8A53-3AF8211E133B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
