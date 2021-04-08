@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Multiples3And5", "Multiples
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FibonacciEvenSum", "FibonacciEvenSum\FibonacciEvenSum.csproj", "{3F52CB72-394E-4067-8A53-3AF8211E133B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TenDigitFibonacci", "TenDigitFibonacci\TenDigitFibonacci.csproj", "{A98091F7-460F-48C1-BAA2-0E02996D64C9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{3F52CB72-394E-4067-8A53-3AF8211E133B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3F52CB72-394E-4067-8A53-3AF8211E133B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3F52CB72-394E-4067-8A53-3AF8211E133B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A98091F7-460F-48C1-BAA2-0E02996D64C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A98091F7-460F-48C1-BAA2-0E02996D64C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A98091F7-460F-48C1-BAA2-0E02996D64C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A98091F7-460F-48C1-BAA2-0E02996D64C9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
