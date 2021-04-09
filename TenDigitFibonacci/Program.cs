@@ -16,14 +16,14 @@ namespace TenDigitFibonacci
 
             //+++Solution+++
             //Set up the variables to be used
-            int num1 = 1;
-            int num2 = 1;
-            int fibResult = 0;
+            long num1 = 1;
+            long num2 = 1;
+            long fibResult = 0;
             long upperLimit = 1000000000;
             //I need to store the values in the sequence in a list to be able to access them
             //via numeric indexing. List<t> is initialized below. I chose this so I'd have access to a numeric
             //index without needing to utilize unboxing
-            List<int> fibSeqNums = new List<int>() { num1, num2 };
+            List<long> fibSeqNums = new List<long>() { num1, num2 };
             
             do
             {
@@ -35,7 +35,7 @@ namespace TenDigitFibonacci
                 //Add the result to the list
                 fibSeqNums.Add(fibResult);
                 //Uncomment below for testing
-                Console.WriteLine(fibResult);
+                //Console.WriteLine(fibResult);
                 
             //I decided to make a variable for upperLimit so I could reuse it in the query and string below
             } while (fibResult < upperLimit);
@@ -43,6 +43,7 @@ namespace TenDigitFibonacci
             //Here I filter the results using Linq Syntax (knowing only 1 value will be returned)and run IndexOf() on it
             int lastResultIndex = fibSeqNums.IndexOf(fibSeqNums.Where(x => x > upperLimit).FirstOrDefault());
 
+            //This is considering a zero based index
             Console.WriteLine($"The index of the result that breaks the limit of {upperLimit:n0} is {lastResultIndex}");
             
 

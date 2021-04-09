@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FibonacciEvenSum", "Fibonac
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TenDigitFibonacci", "TenDigitFibonacci\TenDigitFibonacci.csproj", "{A98091F7-460F-48C1-BAA2-0E02996D64C9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LongestCollatz", "LongestCollatz\LongestCollatz.csproj", "{42F77696-4234-4A76-8A6B-BA44284D0063}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{A98091F7-460F-48C1-BAA2-0E02996D64C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A98091F7-460F-48C1-BAA2-0E02996D64C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A98091F7-460F-48C1-BAA2-0E02996D64C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42F77696-4234-4A76-8A6B-BA44284D0063}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42F77696-4234-4A76-8A6B-BA44284D0063}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42F77696-4234-4A76-8A6B-BA44284D0063}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42F77696-4234-4A76-8A6B-BA44284D0063}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
